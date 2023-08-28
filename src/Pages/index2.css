@@ -1,0 +1,373 @@
+  
+  .null{
+    width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 11%;
+  background-image: linear-gradient(rgb(15, 14, 14), #070707);
+  opacity: 0.86;
+  z-index: 1;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    background: #111222;
+  }
+  section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #fff;
+  }
+  .containers{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content{
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .image{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .content .image img{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .section-title{
+    font-size: 3em;
+    margin-bottom: 80px;
+  }
+  .info-title{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  .info{
+    width: 700px;
+    margin-left: 50px;
+  }
+  .highlighted {
+    color: rgb(101, 170, 244);
+  }
+  .info p{
+    font-size: 20px;
+  }
+  /* Media query for mobile devices */
+  @media (max-width: 767px) {
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    html{
+      scroll-behavior: smooth;
+    }
+    body{
+      background: #111222;
+    }
+    section{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 80px 50px; /* Adjust padding for better mobile layout */
+      color: #fff;
+    }
+    .containers{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .content{
+      position: relative;
+      width: 1150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .content .image{
+      position: relative;
+      width: 800px;
+      height: 400px;
+      overflow: hidden;
+    }
+    .content .image img{
+      z-index: 111;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .section-title{
+      font-size: 3em;
+      margin-bottom: 80px;
+    }
+    .info-title{
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    .info{
+      width: 700px;
+      margin-left: 50px;
+    }
+    .highlighted {
+      color: rgb(101, 170, 244);
+    }
+    .info p{
+      font-size: 20px;
+    }
+    
+    /* Media query for mobile devices */
+    @media (max-width: 767px) {
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      html{
+        scroll-behavior: smooth;
+      }
+      body{
+        background: #111222;
+      }
+      section{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 50px; /* Adjust padding for better mobile layout */
+        color: #fff;
+      }
+      .containers{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .content{
+        position: relative;
+        width: 1150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .content .image{
+        position: relative;
+        width: 800px;
+        height: 400px;
+        overflow: hidden;
+      }
+      .content .image img{
+        z-index: 111;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .section-title{
+        font-size: 3em;
+        margin-bottom: 80px;
+      }
+      .info-title{
+        font-size: 1.8em;
+        margin-bottom: 10px;
+      }
+      .info{
+        width: 700px;
+        margin-left: 50px;
+      }
+      .highlighted {
+        color: rgb(101, 170, 244);
+      }
+      .info p{
+        font-size: 20px;
+      }
+      
+      /* Media query for mobile devices */
+      @media (max-width: 767px) {
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: "Poppins", sans-serif;
+        }
+        html{
+          scroll-behavior: smooth;
+        }
+        body{
+          background: #111222;
+        }
+        section{
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 80px 50px; /* Adjust padding for better mobile layout */
+          color: #fff;
+        }
+        .containers{
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+        .content{
+          position: relative;
+          width: 1150px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .content .image{
+          position: relative;
+          width: 800px;
+          height: 400px;
+          overflow: hidden;
+        }
+        .content .image img{
+          z-index: 111;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 10px;
+        }
+        .section-title{
+          font-size: 3em;
+          margin-bottom: 80px;
+        }
+        .info-title{
+          font-size: 1.8em;
+          margin-bottom: 10px;
+        }
+        .info{
+          width: 700px;
+          margin-left: 50px;
+        }
+        .highlighted {
+          color: rgb(101, 170, 244);
+        }
+        .info p{
+          font-size: 20px;
+        }
+        
+        /* Media query for mobile devices */
+        @media (max-width: 767px) {
+          *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+          }
+          html{
+            scroll-behavior: smooth;
+          }
+          body{
+            background: #111222;
+          }
+          section{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 80px 50px; /* Adjust padding for better mobile layout */
+            color: #fff;
+          }
+          .containers{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+          .content{
+            position: relative;
+            width: 100%; /* Take full width on mobile */
+            display: flex;
+            flex-direction: column; /* Stack elements vertically on mobile */
+          }
+          .content .image{
+            position: relative;
+            width: 100%; /* Take full width on mobile */
+            height: 300px; /* Adjust height as needed */
+            overflow: hidden;
+          }
+          .content .image img{
+            z-index: 111;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+          }
+          .section-title{
+            font-size: 2em; /* Reduce font size for better mobile layout */
+            margin-bottom: 40px; /* Adjust margin as needed */
+            text-align: center; /* Center the text on mobile */
+          }
+          .info-title{
+            font-size: 1.5em; /* Reduce font size for better mobile layout */
+            margin-bottom: 10px;
+          }
+          .info{
+            width: 100%; /* Take full width on mobile */
+            margin: 20px 0; /* Adjust margin as needed */
+          }
+          .highlighted {
+            color: rgb(101, 170, 244);
+          }
+          .info p{
+            font-size: 16px; /* Reduce font size for better mobile layout */
+          }
+          
+        }
+        
+      
+    }
+  }
+  }
+ 
+  
+  
+  
